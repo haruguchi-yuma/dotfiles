@@ -1,0 +1,35 @@
+[user]
+    name = haruguchi
+    email = yuma-ikeoku@bm-sms.co.jp
+
+[color]
+    ui = auto
+
+[alias]
+    s = status
+    b = branch -vv
+    c = checkout
+    cm = commit -m
+    co = commit
+    cf = commit --fixup
+    ca = commit --amend
+    l = log --graph
+    a = add
+    aa = add -a
+    ap = app -p
+    lol = log --graph --decorate --pretty=oneline --all --abbrev-commit
+    lp = log -p
+    pushf = push --force-with-lease
+    df = diff
+    ds = diff --staged
+    pr = pull --rebase
+
+[grep]
+    lineNumber = true
+
+[core]
+    commentchar = ~
+[fetch]
+	prune = true
+[rebase]
+	autosquash = true
