@@ -1,6 +1,8 @@
 [user]
     name = haruguchi
-    email = yuma-ikeoku@bm-sms.co.jp
+
+[include]
+    path = ~/.gitconfig_email
 
 [color]
     ui = auto
